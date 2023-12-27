@@ -1,0 +1,132 @@
+/* style.css */
+
+main {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  color: #333;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.byDate, .byId {
+  flex-basis: 48%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.no-break {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.action-buttons button {
+  margin-right: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+}
+
+.edit-button:hover {
+  transition: 0.3s;
+  background-color: #ffc10780;
+}
+
+.delete-button {
+  background-color: #dc3545; 
+  color: #fff;
+  border: none;
+}
+
+.delete-button:hover {
+  transition: 0.3s;
+  background-color: #dc354696;
+}
+
+.success {
+  display: block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  border-radius: 9px;
+  width: max-content;
+  position: fixed;
+}
+
+.sucess span {
+  font-weight: 600;
+}
